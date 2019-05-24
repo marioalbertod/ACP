@@ -86,6 +86,4 @@ my.cont.var <- rnorm(17)
 fviz_pca_var(res.pca, col.var = my.cont.var,
              gradient.cols = c("blue", "yellow", "red"),
              legend.title = "Cont.Var")
-fviz_pca_ind(res.pca, habillage = 13,
-             addEllipses =TRUE, ellipse.type = "confidence",
-             palette = "jco", repel = TRUE)
+
